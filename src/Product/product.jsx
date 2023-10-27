@@ -17,7 +17,7 @@ const Product = ({ item }) => {
       <div className="card-footer bg-white border-0">
         {added ? (
           <button
-            className="btn btn-warning w-100"
+            className="btn btn-danger w-100"
             onClick={() => setAdded(!added)}
           >
             Remove from Cart
