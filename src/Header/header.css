@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+li > a:hover {
+  color: greenyellow;
+}
+a {
+  text-decoration: none;
+}
