@@ -17,10 +17,10 @@ const Product = ({ item }) => {
       <div className="card-footer bg-white border-0">
         {added ? (
           <button
-            className="btn btn-success w-100"
+            className="btn btn-warning w-100"
             onClick={() => setAdded(!added)}
           >
-            Added to Cart
+            Remove from Cart
           </button>
         ) : (
           <button
