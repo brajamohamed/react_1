@@ -1,9 +1,5 @@
-.navigation {
-  display: flex;
-  justify-content: space-around;
-}
-li > a:hover {
-  color: greenyellow;
+.menuLink:hover {
+  color: red;
 }
 a {
   text-decoration: none;

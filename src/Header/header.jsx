@@ -11,7 +11,7 @@ const Header = () => {
           <h5 className="text-primary ms-5">Flipkart</h5>
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler me-5"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#menu"
@@ -19,19 +19,25 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="menu">
-          <ul className="navbar-nav navigation w-100">
+          <ul className="navbar-nav navigation ms-auto me-5">
             <li className="nav-item">
-              <Link to="/" className="nav-link text-white fw-bolder">
+              <Link to="/" className="nav-link menuLink text-white fw-bolder">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link text-white fw-bolder">
+              <Link
+                to="/about"
+                className="nav-link menuLink text-white fw-bolder"
+              >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/products" className="nav-link text-white fw-bolder">
+              <Link
+                to="/products"
+                className="nav-link active menuLink text-white fw-bolder"
+              >
                 Products
               </Link>
             </li>
