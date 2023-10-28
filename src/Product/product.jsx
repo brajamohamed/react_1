@@ -1,11 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./product.css";
 import { useState } from "react";
 const Product = ({ item }) => {
   const [added, setAdded] = useState(false);
   console.log("recd in product", item);
   return (
-    <div className="card col-lg-3 mx-2 mt-5">
-      <img className="card-img-top" src={item.thumbnail} alt="product-img" />
+    <div className="card col-lg-3 mx-2 mt-5 p-0">
+      <img
+        className=" card-img-top prod-img"
+        src={item.thumbnail}
+        alt="product-img"
+      />
       <div className="card-body">
         <div className="card-title">
           <h5>{item.title}</h5>
