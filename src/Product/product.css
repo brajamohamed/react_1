@@ -3,3 +3,6 @@
   min-height: 40%;
   max-height: 40%;
 }
+.card {
+  overflow: scroll;
+}
