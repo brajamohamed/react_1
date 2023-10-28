@@ -5,7 +5,7 @@ const Product = ({ item }) => {
   const [added, setAdded] = useState(false);
   console.log("recd in product", item);
   return (
-    <div className="card col-lg-3 mx-2 mt-5 p-0">
+    <div className="card col-lg-3 col-md-3 mx-2 mt-5 p-0">
       <img
         className=" card-img-top prod-img"
         src={item.thumbnail}
