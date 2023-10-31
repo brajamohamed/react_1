@@ -17,14 +17,14 @@ const Signup = () => {
 
   //   validation ends here
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid row">
       <div className="d-flex flex-column justify-content-center align-items-center">
         <img
           src="https://technologypressblog.files.wordpress.com/2016/08/400197-myntra-logo.jpg"
           alt="myntra-logo"
           className="signup-logo"
         />
-        <div className="wrapper bg-black p-5 rounded-5 w-75">
+        <div className="wrapper bg-black p-5 rounded-5 col-xl-5 col-lg-8 col-md-9 col-sm-12">
           <h3 className="text-white text-center">NEW USER REGISTERATION</h3>
           <form onSubmit={handleSubmit} noValidate>
             <div className="form-group mb-3">

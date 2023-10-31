@@ -32,7 +32,10 @@ const Hero = () => {
           />
           <div class="carousel-caption d-none d-md-block">
             <h5>Exclusive Men Collections</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>
+              Visit us to explore a wholesome range of exlusive men wear
+              collections.
+            </p>
           </div>
         </div>
         <div className="carousel-item">
@@ -43,7 +46,10 @@ const Hero = () => {
           />
           <div class="carousel-caption d-none d-md-block">
             <h5>Unlimited Women Collections</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>
+              Visit us to explore a unlimited range of latest women wear
+              collections.
+            </p>
           </div>
         </div>
         <div className="carousel-item">
@@ -54,7 +60,10 @@ const Hero = () => {
           />
           <div class="carousel-caption d-none d-md-block">
             <h5>Grand Kids Collections</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>
+              SVisit us to explore a grandier range of exlusive children wear
+              collections..
+            </p>
           </div>
         </div>
       </div>
