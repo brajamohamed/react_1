@@ -11,6 +11,8 @@ import Kids from "./Kids/kids";
 import Homeliving from "./Home and Living/homeliving";
 import Beauty from "./Beauty/beauty";
 import Studio from "./Studio/studio";
+import Signup from "./Signup/signup";
+import Login from "./Login/login";
 
 export const productContext = createContext();
 function App() {
@@ -126,6 +128,8 @@ function App() {
             <Route path="/home&living" element={<Homeliving />} />
             <Route path="/beauty" element={<Beauty />} />
             <Route path="/studio" element={<Studio />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </div>
       </BrowserRouter>
