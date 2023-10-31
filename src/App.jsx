@@ -3,9 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createContext } from "react";
 import Header from "./Header/header";
+import Hero from "./Hero/hero";
 import Home from "./Home/home";
-import About from "./About/about";
-import Products from "./Products/products";
+import Men from "./Men/men";
+import Women from "./Women/women";
+import Kids from "./Kids/kids";
+import Homeliving from "./Home and Living/homeliving";
+import Beauty from "./Beauty/beauty";
+import Studio from "./Studio/studio";
 
 export const productContext = createContext();
 function App() {
@@ -107,9 +112,20 @@ function App() {
         <div className="App">
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/products" element={<Products />} />
+            <Route
+              path="/"
+              element={
+                <div>
+                  <Hero /> <Home />
+                </div>
+              }
+            />
+            <Route path="/men" element={<Men />} />
+            <Route path="/women" element={<Women />} />
+            <Route path="/kids" element={<Kids />} />
+            <Route path="/home&living" element={<Homeliving />} />
+            <Route path="/beauty" element={<Beauty />} />
+            <Route path="/studio" element={<Studio />} />
           </Routes>
         </div>
       </BrowserRouter>
