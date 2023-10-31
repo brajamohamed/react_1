@@ -1,5 +1,6 @@
 .car-img {
   height: 85vh;
+  max-height: 85vh;
   object-fit: cover;
   object-position: top;
 }

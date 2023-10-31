@@ -1,7 +1,21 @@
 import React from "react";
+import { useState } from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./signup.css";
 const Signup = () => {
+  const [clicked, setClicked] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState(null);
+  const [phone, setPhone] = useState(null);
+  const [pwd, setPwd] = useState(null);
+  const [c_pwd, setC_pwd] = useState(null);
+  const [error, setError] = useState(false);
+
+  const handleSubmit = (e) => {
+    // e.preventDefault;
+  };
+
+  //   validation ends here
   return (
     <div className="container-fluid ">
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -12,8 +26,8 @@ const Signup = () => {
         />
         <div className="wrapper bg-black p-5 rounded-5 w-75">
           <h3 className="text-white text-center">NEW USER REGISTERATION</h3>
-          <form action="login" className="needs-validation" noValidate>
-            <div className="form-group mb-3 was-validated">
+          <form onSubmit={handleSubmit} noValidate>
+            <div className="form-group mb-3">
               <label htmlFor="name" className="form-label text-white">
                 Name:
               </label>
@@ -22,11 +36,13 @@ const Signup = () => {
                 className="form-control"
                 placeholder="Enter full name"
                 id="name"
+                value={name}
+                onChange={() => setName()}
                 required
               />
-              {/* <div className="invalid-feedback">Please enter valid input</div> */}
+              <div className="invalid-feedback">Enter a valid name</div>
             </div>
-            <div className="form-group mb-3 was-validated">
+            <div className="form-group mb-3">
               <label htmlFor="name" className="form-label text-white">
                 E-mail:
               </label>
@@ -35,24 +51,28 @@ const Signup = () => {
                 className="form-control"
                 placeholder="Enter full name"
                 id="name"
+                value={email}
+                onChange={() => setEmail()}
                 required
               />
-              {/* <div className="invalid-feedback">Please enter valid input</div> */}
+              <div className="invalid-feedback">Please enter valid input</div>
             </div>
-            <div className="form-group mb-3 was-validated">
-              <label htmlFor="name" className="form-label text-white">
+            <div className="form-group mb-3">
+              <label htmlFor="phone" className="form-label text-white">
                 Phone:
               </label>
               <input
                 type="number"
                 className="form-control"
-                placeholder="Enter full name"
-                id="name"
+                placeholder="Enter phone number"
+                id="phone"
+                value={phone}
+                onChange={setPhone}
                 required
               />
-              {/* <div className="invalid-feedback">Please enter valid input</div> */}
+              <div className="invalid-feedback">Please enter valid input</div>
             </div>
-            <div className="form-group mb-3 was-validated">
+            <div className="form-group mb-3">
               <label htmlFor="name" className="form-label text-white">
                 Password:
               </label>
@@ -61,11 +81,13 @@ const Signup = () => {
                 className="form-control"
                 placeholder="Enter full name"
                 id="name"
+                value={pwd}
+                onChange={setPwd}
                 required
               />
-              {/* <div className="invalid-feedback">Please enter valid input</div> */}
+              <div className="invalid-feedback">Please enter valid input</div>
             </div>
-            <div className="form-group mb-3 was-validated">
+            <div className="form-group mb-3">
               <label htmlFor="name" className="form-label text-white">
                 Confirm Password:
               </label>
@@ -74,13 +96,16 @@ const Signup = () => {
                 className="form-control"
                 placeholder="Enter full name"
                 id="name"
+                value={c_pwd}
+                onChange={setC_pwd}
                 required
               />
-              {/* <div className="invalid-feedback">Please enter valid input</div> */}
+              <div className="invalid-feedback">Please enter valid input</div>
             </div>
             <button
               type="submit"
               className="d-block w-100 btn btn-primary rounded mt-4"
+              onClick={(e) => handleSubmit(e)}
             >
               Sign Up Now
             </button>
