@@ -12,7 +12,7 @@ const Signup = () => {
         />
         <div className="wrapper bg-black p-5 rounded-5 w-75">
           <h3 className="text-white text-center">NEW USER REGISTERATION</h3>
-          <form action="/login" className="needs-validation" noValidate>
+          <form action="login" className="needs-validation" noValidate>
             <div className="form-group mb-3 was-validated">
               <label htmlFor="name" className="form-label text-white">
                 Name:
