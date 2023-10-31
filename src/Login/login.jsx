@@ -1,6 +1,9 @@
 import React from "react";
 
 const Login = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault;
+  };
   return (
     <div className="container-fluid row">
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -11,7 +14,7 @@ const Login = () => {
         />
         <div className="wrapper bg-black p-5 rounded-5  col-xl-5 col-lg-8 col-md-9 col-sm-12">
           <h3 className="text-white text-center">USER LOGIN</h3>
-          <form action="/login" className="needs-validation" noValidate>
+          <form>
             <div className="form-group mb-3 was-validated">
               <label htmlFor="name" className="form-label text-white">
                 E-mail:
@@ -43,6 +46,7 @@ const Login = () => {
             <button
               type="submit"
               className="d-block w-100 btn btn-primary rounded mt-4"
+              onClick={() => handleSubmit(e)}
             >
               Login
             </button>

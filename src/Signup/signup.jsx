@@ -12,10 +12,9 @@ const Signup = () => {
   const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
-    // e.preventDefault;
+    e.preventDefault;
   };
 
-  //   validation ends here
   return (
     <div className="container-fluid row">
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -26,7 +25,7 @@ const Signup = () => {
         />
         <div className="wrapper bg-black p-5 rounded-5 col-xl-5 col-lg-8 col-md-9 col-sm-12">
           <h3 className="text-white text-center">NEW USER REGISTERATION</h3>
-          <form onSubmit={handleSubmit} noValidate>
+          <form>
             <div className="form-group mb-3">
               <label htmlFor="name" className="form-label text-white">
                 Name:
