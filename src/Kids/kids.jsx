@@ -8,14 +8,14 @@ const Kids = () => {
           <img
             src="https://images-static.nykaa.com/uploads/895224e6-0579-434d-a9fc-390f666dd4b0.jpg?tr=w-600,cm-pad_resize"
             alt="kids"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://www.sassymamasg.com/wp-content/uploads/2023/09/indian-dress-singapore-nimbu.jpeg"
             alt="kids"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
       </div>

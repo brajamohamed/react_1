@@ -10,14 +10,14 @@ const Women = () => {
           <img
             src="https://assets.ltkcontent.com/images/84943/fashion-terms_22064cce7e.jpg"
             alt="women"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://media.istockphoto.com/id/916092484/photo/women-clothes-hanging-on-hangers-clothing-rails-fashion-design.jpg?s=612x612&w=0&k=20&c=fUpcbOITkQqitglZfgJkWO3py-jsbuhc8eZfb4sdrfE="
             alt="women"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
       </div>

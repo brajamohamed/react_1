@@ -10,14 +10,14 @@ const Men = () => {
           <img
             src="https://cdn.shopaccino.com/qarot/articles/blog-610669_l.jpg?v=466"
             alt="mens-products"
-            className="data-block w-100 car-img"
+            className="data-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://thethaiger.com/wp-content/uploads/2023/06/Mens-Clothing-Suits-1.jpg"
             alt="mens-products"
-            className="data-block w-100 car-img"
+            className="data-block w-100 car-img img-fluid"
           />
         </div>
       </div>

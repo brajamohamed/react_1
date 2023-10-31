@@ -9,14 +9,14 @@ const Beauty = () => {
           <img
             src="https://www.pharmaadda.in/wp-content/uploads/2019/01/Cosmetic-Franchise-Company-in-India.jpg"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://lh3.googleusercontent.com/DXtUkycsgolwELfCYC_sFSJJWRyjQ-9Us95IFGcpDhN5S6BUQEHPjkhLHh6bFT-WxH3FjWKvyUkWWfbtqz59s5ZNhOVu_GuaL1ep10A2=h450-rw"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
       </div>

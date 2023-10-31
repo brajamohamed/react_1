@@ -8,14 +8,14 @@ const Studio = () => {
           <img
             src="https://blog.myntra.com/wp-content/uploads/2020/04/Myntra-studio_Facebook.jpg"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://in.apparelresources.com/wp-content/uploads/sites/3/2020/04/Myntra-Studio.jpg"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
       </div>

@@ -8,14 +8,14 @@ const Homeliving = () => {
           <img
             src="https://hmifurniture.in/wp-content/uploads/2021/10/Bed-7.jpg"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-123788,resizemode-75,msid-99766937/top-trending-products/furniture/beds/best-king-size-beds-get-a-good-nights-sleep-and-enjoy-luxury-comfort.jpg"
             alt="home&living"
-            className="d-block w-100 car-img"
+            className="d-block w-100 car-img img-fluid"
           />
         </div>
       </div>
